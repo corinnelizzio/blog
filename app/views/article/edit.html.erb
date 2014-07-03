@@ -1,5 +1,1 @@
-<%= form_for @article, url: {action: :update} do |form| %>
-  <%= form.text_field :title %>
-  <%= form.text_area :content %>
-  <%= form.submit 'update the post' %>
-<% end %>
+<%= render 'form', action: :update %>
