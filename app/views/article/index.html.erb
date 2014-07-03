@@ -1,7 +1,7 @@
 <% @articles.each do |article| %>
   <h3>
     <marquee>
-      <%= article.title %>
+      <%= link_to article.title, article %>
     </marquee>
   </h3>
   <p>
