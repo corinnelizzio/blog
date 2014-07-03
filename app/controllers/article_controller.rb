@@ -19,11 +19,22 @@ class ArticleController < ApplicationController
     end
   end
 
+  def update
+    @article = Article.find(params[:id])
+    if @article.update_attributes!(article_params)
+      redirect_to @article
+    end
+  end
+
   def destroy
     @article = Article.find(params[:id])
     if @article.destroy!
       redirect_to action: :index
     end
+  end
+
+  def edit
+    @article = Article.find(params[:id])
   end
 
   def article_params
