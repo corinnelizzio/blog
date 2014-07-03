@@ -1,0 +1,10 @@
+<% @articles.each do |article| %>
+  <h3>
+    <marquee>
+      <%= article.title %>
+    </marquee>
+  </h3>
+  <p>
+    <%= article.content %>
+  </p>
+<% end %>
