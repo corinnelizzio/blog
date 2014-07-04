@@ -20,4 +20,4 @@ gem 'binding_of_caller'
 gem 'pry-rails'
 gem 'devise'
 gem 'paperclip', '~> 4.1'
-gem 'aws-sdk'
+gem 'aws-sdk', group: :production
