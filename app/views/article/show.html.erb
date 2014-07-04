@@ -2,6 +2,10 @@
   <%= @article.title %>
 </h1>
 
+<% @article.image.each do |image| %>
+  <%= image_tag image.image.url, class: image.image.original_filename %>
+<% end %>
+
 <p>
   <%= @article.content %>
 </p>

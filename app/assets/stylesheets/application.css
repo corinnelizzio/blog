@@ -28,3 +28,7 @@ p {
 body {
   background-color: #ADEBFF;
 }
+
+img {
+  width: 300px;
+}

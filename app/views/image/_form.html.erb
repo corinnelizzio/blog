@@ -1,4 +1,5 @@
 <%= form_for @image, url: {action: action}, html: { multipart: true } do |form| %>
   <%= form.file_field :image %>
+  <%= form.select(:article_id, options_from_collection_for_select(Article.all, :id, :title)) %>
   <%= form.submit 'Do dat thang' %>
 <% end %>
