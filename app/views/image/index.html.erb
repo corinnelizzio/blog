@@ -1,0 +1,7 @@
+<%= link_to 'Add Another Image', new_image_path %>
+<table>
+  <% @images.each do |image| %>
+    <%= render 'image', image: image %>
+  <% end %>
+</table>
+<%= link_to 'Add Another Image', new_image_path %>

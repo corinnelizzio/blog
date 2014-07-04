@@ -1,0 +1,14 @@
+<tr>
+  <td>
+    <%= image_tag image.image.url %>
+  </td>
+  <td>
+    <%= link_to 'Edit Image', edit_image_path(image) %>
+  </td>
+  <td>
+    <%= link_to 'Show Image', image_path(image) %>
+  </td>
+  <td>
+    <%= button_to "Delete", image, method: :delete %>
+  </tr>
+</tr>
