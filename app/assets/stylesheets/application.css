@@ -15,6 +15,11 @@
  */
 h1.blog-title {
 
+  font-size: 50px;
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  padding-bottom: 30px
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,6 +32,9 @@ p {
 
 body {
   background-color: #ADEBFF;
+  margin: 55px;
+  border-top-style: solid;
+  border-top-width: 5px
 }
 
 img {
