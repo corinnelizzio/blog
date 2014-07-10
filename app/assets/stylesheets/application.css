@@ -14,12 +14,12 @@
  *= require_self
  */
 h1.blog-title {
-
-  font-size: 50px;
+  font-size: 64px;
   text-align: center;
   border-bottom-style: solid;
   border-bottom-width: 5px;
-  padding-bottom: 30px
+  padding-bottom: 30px;
+  font-family: 'Brush Script MT', cursive;
 }
 
 h1, h2, h3, h4, h5, h6 {
