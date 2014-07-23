@@ -5,10 +5,23 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link rel="icon" href="/favicon.ico">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53133210-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body>
   <h1 class="blog-title">
+      <img class="image-title" src="http://s3.amazonaws.com/corinne_lizzio_blog/images/images/000/000/047/original/IMG_4042.JPG?1405294278">
     <%= link_to 'Adventures in Europe', article_index_path %>
+      <img class="image-title" src="http://s3.amazonaws.com/corinne_lizzio_blog/images/images/000/000/035/original/IMG_3907.JPG?1405293672">
     </h1>
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>

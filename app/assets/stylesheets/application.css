@@ -16,11 +16,13 @@
 h1.blog-title {
   font-size: 64px;
   text-align: center;
+  vertical-align: middle;
+
   border-bottom-style: ridge;
   border-bottom-width: 5px;
   padding-bottom: 30px;
   font-family: 'Brush Script MT', cursive;
-  border-bottom-color: purple
+  border-bottom-color: purple;
 }
 
 h1.blog-title a {
@@ -42,11 +44,16 @@ body {
   border-top-style: ridge;
   border-top-width: 5px;
   border-top-color: purple;
-  border-left-color: black;
-  border-right-color: black;
 }
 
 img {
   width: 300px;
   border: 2px
+}
+
+img.image-title {
+  width: 200px;
+  border: 2px;
+  margin: 5px;
+  vertical-align: middle;
 }
