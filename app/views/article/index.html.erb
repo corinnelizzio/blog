@@ -2,9 +2,6 @@
   <h3>
     <%= link_to article.title, article %>
   </h3>
-  <h5>
-    <%= @article.date %>
-  </h5>
   <p>
     <%= article.content if user_signed_in? %>
   </p>
