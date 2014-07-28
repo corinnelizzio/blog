@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20140704181043) do
 
   create_table "articles", force: true do |t|
     t.string "title"
+    t.integer "date"
     t.text   "content"
   end
 

@@ -1,5 +1,6 @@
 <%= form_for @article, url: {action: action} do |form| %>
   <%= form.text_field :title %>
+  <%= form.text_field :date %>
   <%= form.text_area :content %>
   <%= form.submit "#{action} the post" %>
 <% end %>
