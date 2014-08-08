@@ -39,6 +39,7 @@ p {
 }
 
 body {
+  /* this should change */
   background-color: #B0C0FF;
   margin: 55px;
   border-top-style: ridge;
