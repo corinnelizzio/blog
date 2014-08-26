@@ -3,7 +3,7 @@
     <%= link_to article.title, article %>
   </h3>
   <h5>
-    <%= article.date %>
+    <%= article.date if user_signed_in? %>
   </h5>
   <p>
     <%= article.content if user_signed_in? %>
